@@ -1,4 +1,4 @@
-# A working virtual Spark cluster
+# A working virtual [spark](http://spark.apache.org/) cluster
 
 This vagrant script allows you to set up a virtual spark cluster to practice working with spark in distributed mode. The code for this set up is a re-mix of the [ipython-spark-docker](https://github.com/Lab41/ipython-spark-docker) project by [Lab41](https://www.lab41.org/) and the [virtual-haddop-cluster](https://blog.cloudera.com/blog/2014/06/how-to-install-a-virtual-apache-hadoop-cluster-with-vagrant-and-cloudera-manager/) by [cloudera](http://www.cloudera.com/)
 
@@ -41,7 +41,7 @@ Go to the [Spark Manager web console](http://vm-cluster-node1:7077) to see the c
 
 To start up a client in python and run jobs against your cluster(assuming you are runing python on [anaconda](https://www.continuum.io/downloads)).
 
-Download spark to be used as the client.
+[Download](http://spark.apache.org/downloads.html) spark to be used as the client.
 
 ```bash
 rm -rf spark-1.6.0-bin-hadoop2.4
@@ -72,5 +72,13 @@ rdd = sc.textFile('hdfs://hdfs-host-name:8020/hdfs/path/to/data')
 rdd.count()
 ```
 
+to stop the cluster
+```bash
+vagrant suspend
+```
+or to remove the virtual machines completely
+```bash
+vagrant destroy
+```
 
 **Done!** Have fun with your Spark cluster.
