@@ -1,6 +1,6 @@
 # A working virtual [spark](http://spark.apache.org/) cluster
 
-This vagrant script allows you to set up a virtual spark cluster to practice working with spark in distributed mode. The code for this set up is a re-mix of the [ipython-spark-docker](https://github.com/Lab41/ipython-spark-docker) project by [Lab41](https://www.lab41.org/) and the [virtual-haddop-cluster](https://blog.cloudera.com/blog/2014/06/how-to-install-a-virtual-apache-hadoop-cluster-with-vagrant-and-cloudera-manager/) by [cloudera](http://www.cloudera.com/)
+This vagrant script allows you to set up a virtual spark cluster to practice working with spark in distributed mode. The code for this set up is a re-mix of the [ipython-spark-docker](https://github.com/Lab41/ipython-spark-docker) [blog](http://lab41.github.io/blog/2015/04/13/ipython-on-spark-on-docker/) by [Lab41](https://www.lab41.org/) and the [virtual-haddop-cluster](https://blog.cloudera.com/blog/2014/06/how-to-install-a-virtual-apache-hadoop-cluster-with-vagrant-and-cloudera-manager/) by [cloudera](http://www.cloudera.com/)
 
 ## Specs
 
