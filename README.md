@@ -36,7 +36,7 @@ $ cd virtual-spark-cluster
 $ vagrant up
 ```
 
-Go to the [Spark Manager web console](http://vm-cluster-node1:7077) to see the confgured cluster.
+Go to the [Spark Manager web console](http://vm-cluster-node1:8080) at http://vm-cluster-node1:8080 to see the confgured cluster.
 
 
 To start up a client in python and run jobs against your cluster(assuming you are runing python on [anaconda](https://www.continuum.io/downloads)).
@@ -44,19 +44,19 @@ To start up a client in python and run jobs against your cluster(assuming you ar
 [Download](http://spark.apache.org/downloads.html) spark to be used as the client.
 
 ```bash
-rm -rf spark-1.6.0-bin-hadoop2.4
-curl -O http://www.interior-dsgn.com/apache/spark/spark-1.6.0/spark-1.6.0-bin-hadoop2.4.tgz
-tar zxvf spark-1.6.0-bin-hadoop2.4.tgz
+$ rm -rf spark-1.6.0-bin-hadoop2.4
+$ curl -O http://www.interior-dsgn.com/apache/spark/spark-1.6.0/spark-1.6.0-bin-hadoop2.4.tgz
+$ tar zxvf spark-1.6.0-bin-hadoop2.4.tgz
 ```
 or
 ```bash
-brew install apache-spark
+$ brew install apache-spark
 ```
 
 Install [findspark](https://github.com/minrk/findspark).
 
 ```bash
-pip install findspark
+$ pip install findspark
 ```
 
 
