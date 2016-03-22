@@ -76,7 +76,7 @@ to stop the cluster
 ```bash
 vagrant suspend
 ```
-or to remove the virtual machines completely
+or to remove the virtual machines completely.
 ```bash
 vagrant destroy
 ```
